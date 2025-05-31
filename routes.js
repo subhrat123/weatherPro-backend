@@ -1,5 +1,5 @@
 import express from 'express';
-import getAqi from '../server/controller/aqiController.js';
+import getAqi from './controller/aqiController.js';
 // import chatWithAI from './controller/chatController.js';
 import chatbotResponse from './controller/generativeAi.js';
 const routes= express.Router();
